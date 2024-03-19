@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+
+#canvas_1{
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+#control{
+    position: absolute;
+    padding:  10px;
+    border: 2px solid white;
+    left: 10px;
+    top: 10px;
+    width: 375px;
+    background: rgba(255,255,255,0.15);
+
+}
+
+#btn-rederizar{
+   padding: 20px 40px;
+   width: 350px;
+   font-size: 50px; 
+}
